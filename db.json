@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+          "id": "1",
+          "name": "Rafel Jay",
+          "message" : "Hi there, how are you?",
+          "birthday": "4 day ago",
+          "avatarUrl": "https://randomuser.me/api/portraits/women/1.jpg"
+        },
+        {
+          "id": "2",
+          "name": "Frank Johnsan",
+          "message" : "How was the trip?",
+          "birthday": "5 day ago",
+          "avatarUrl": "https://randomuser.me/api/portraits/men/2.jpg"
+        },
+        {
+          "id": "3",
+          "name": "Ashley Pierce",
+          "message" : "I hope you are  well.",
+          "birthday": "Mar 12,2022",
+          "avatarUrl": "https://randomuser.me/api/portraits/women/3.jpg"
+        },
+        {
+          "id": "4",
+          "name": "Nancy Meyer",
+          "message" : "Thank you for aswering.",
+          "birthday": "Feb 3,2022",
+          "avatarUrl": "https://randomuser.me/api/portraits/men/4.jpg"
+        }
+      ]
+}

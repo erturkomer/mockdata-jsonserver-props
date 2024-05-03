@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(219, 219, 219);
+}
+
+.user, .user * {
+    cursor: pointer;
+}
+
+.user *::selection{
+    background: none;
+}
+
+.container {
+    background: #FFFFFF;
+    border-radius: 43px;
+    width: 617px;
+    height: 770px;
+    padding: 80px;
+    box-shadow: -39px -44px 0px 0px rgba(63,222,164,1);
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2554;
+    padding-bottom: 32px;
+    cursor: default;
+    padding-left: 16px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 428px;
+    height: 80px;
+    border-radius: 16px;
+    color: white;
+    background: #1F2554;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.button *::selection{
+    background: none;
+}
+
+.edit {
+    position: relative;
+    top: 247, 5px;
+    left: 24px;
+}
+
+.button span {
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: Medium;
+    font-size: 18px;
+}
+
+.user img{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.user{
+    margin-bottom: 4px;
+    width: 457px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.user:hover{
+    background: #F5F8FF;
+}
+
+.user-list{
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepper{
+    width: 23px;
+    height: 23px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    background: #3FDEA5;
+    position: relative;
+    top: -20px;
+    left: 72px;
+}
+
+.user-in-text p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: medium;
+    color: #1F2554;
+    display: block;
+}
+
+.user-in-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    width: 331px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top h2{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2554;
+}
+
+.top span{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: medium;
+    color: #1F2554;
+}
